@@ -1,0 +1,99 @@
+.trusteddiv{
+    background-color: #0098ba99;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.truested-firstdiv{
+    display: flex;
+    flex-direction: column;
+}
+.features-box-layout1 .item-content {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.features-box-layout1:nth-child(odd) .item-content-inner {
+    padding-right: 3rem;
+}
+.features-box-layout1 .item-content .item-content-inner.content-light .item-title {
+    color: #ffffff;
+}
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+ul, ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+.features-box-layout1 .item-inner-wrapper {
+    width: 50%;
+}
+.features-box-layout1 {
+    position: relative;
+}
+.bg-primary100 {
+    background-color: #0098ba99;
+}
+.h1tag{
+    font-size: 3em;
+    margin-top: 107px;
+    text-align: left;
+    /* text-align: center; */
+    color: white;
+    font-weight: 600;
+    width: 611px;
+    margin-left: 90px;
+}
+.list-item{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    line-height: 2;
+}
+ .list:before {
+    display: inline-block;
+    width: 25px;
+    content: "\003E";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 10px;
+    background-color: #ffffff;
+    width: 25px;
+    border-radius: 45px;
+    line-height: 25px;
+    text-align: center;
+    color: #111111;
+    margin-right: 15px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    -webkit-box-shadow: 0px 5px 6px 0px #1e4ecb;
+    -moz-box-shadow: 0px 5px 6px 0px #1e4ecb;
+    box-shadow: 0px 5px 6px 0px #1e4ecb;
+}
